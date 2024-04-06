@@ -1,0 +1,63 @@
+.form-container{
+    display: flex;
+    flex-direction: column;
+    background-color: azure ;
+    width: 700px;
+    margin: auto;
+    margin-top: 10px;
+    /* height: 50vh; */
+}
+
+h2{
+    color: #ed1e32;
+    width: 50%;
+    margin: auto;
+    margin-bottom:20px;
+}
+
+
+
+
+
+
+.pillar-button{
+    background-color: #ee2a3d;
+    border-color: #ed1e32;
+    color: #fff;
+    width: 70%;
+       padding: .1rem;
+    margin-left: 75px;
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: .1rem;
+    margin-top: .1rem;
+    cursor: pointer;
+    
+}
+
+.select-container{
+    width: 100%;
+    border-radius: 8px;
+
+}
+
+.message-input{
+    margin-bottom: 20px;
+}
+
+.message-input input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+}
+
+.Enroll-btn{
+    background-color:#ed1e32;
+    height: 50px;
+    margin-top: 30px;
+}
+

@@ -1,0 +1,131 @@
+.about-container{
+    display: flex;
+    justify-content:center;
+    padding: 20px 40px;
+}
+
+
+.cover{
+    /* background-color: yellowgreen; */
+    display: flex;
+    justify-content: center;
+    padding: 100px 200px;
+}
+
+.about-image{
+    margin-right: 25px;
+}
+
+.red-about{
+    color: red;
+    text-decoration: dashed underline;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.about-text{
+    /* background-color: yellow; */
+    height: 61vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    
+}
+
+/* .aboutHeading h1{
+    color: #2878EB;
+} */
+
+.heading-text{
+    font-size: 22px;
+}
+
+.heading-text h1{
+    color: #1465d9;
+}
+
+.about-para{
+    padding: 8px 8px;
+    color: grey;
+    font-size: 15px;
+    /* background-color: yellow; */
+    width: 80%;
+    
+}
+
+.color-boxes{
+    display: flex;
+    /* align-items: center;
+    justify-content: center;
+     */
+    
+}
+
+
+.blue{
+    background-color:#28a745;
+    text-align: center;
+    color: white;
+    width: 20%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+.yellow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:#2878EB;
+    text-align: center;
+    color: white;
+    width: 20%;
+    height: 120px;
+    padding: 1rem;
+}
+.red{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:#F14D5D;
+
+    text-align: center;
+    padding: 1rem;
+    color: white;
+    width: 20%;
+    height: 120px;
+}
+.green{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:#ffc107;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+    width: 20%;
+    height: 120px;
+}
+
+.up-button{
+    position: fixed;
+    background-color: #1465d9;
+    height: 70px;
+    width: 70px;
+    margin-top: 500px;
+    margin-left: 1000px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+.up-button i{
+    padding:4px ;
+}

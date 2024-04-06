@@ -1,0 +1,11 @@
+.fistTop-container{
+    display: flex;
+    align-items: center;
+    background-color: darkslateblue;
+    padding-left: 40px;
+    color: white;
+}
+
+.right-icons{
+    padding-left: 995px;
+}

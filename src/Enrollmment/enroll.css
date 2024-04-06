@@ -1,0 +1,189 @@
+.enroll{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.enroll-left{
+    background-color:#2878EB ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 50px;
+    padding: 50px;
+    font-size: 30px;
+    
+}
+
+.heading{
+    color: #F14D5D;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-left: 25px;
+    text-decoration: underline dashed;
+    
+}
+
+
+
+
+.enroll-heading h1
+{
+    position: relative;
+    color: red;
+    -webkit-text-stroke: 0.2vw white;    
+}
+
+/* .enroll-heading h1::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    color: #01fe87;
+} */
+
+
+
+/* right-side */
+
+.enroll-heading{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+h4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.enroll-right{
+    background-color: #2878EB;
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.enroll-right h4{
+    position:relative ;
+    color: white;
+    /* color: #ed1e32; */
+    font-size: 30px;
+    /* -webkit-text-stroke: .1rem  #ed1e32; */
+    -webkit-text-stroke: .1rem white ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.enroll-right h4::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 100%;
+    color:#ed1e32;
+    -webkit-text-stroke: 0vh orangered;
+    /* border-left: 2px solid #ed1e32; */
+    overflow: hidden;
+    animation: animate 4s linear infinite;
+}
+
+@keyframes animate
+
+{
+    0%,10%,100%{
+        width: 0;
+    }
+    30%,50%,90%{
+        width: 100%;
+    }
+}
+
+.enroll-card{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 20px;
+
+}
+
+hr{
+    color: white;
+}
+
+.course-price{
+    color: white;
+}
+
+.enroll a button{
+    background-color: #ee2a3d;
+    border-color: #ed1e32;
+    color: #fff;
+    width: 70%;
+    /* margin: auto; */
+    padding: .7rem;
+    margin-left: 50px;
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+
+/* Card */
+
+
+.cardContainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* Back Button */
+
+.backButton{
+    margin: 40px;
+}
+
+/* Dynamic card */
+
+.viewContainer{
+    background-color: #6f7d90;
+    color: rgb(158, 23, 23);
+    width: 40%;
+    height: 100vh;
+    margin: auto;
+    
+}
+
+.imageContainer img{
+    width: 70%;
+    margin-left: 100px;
+    margin-top: 5px;
+}
+
+.courseDetail p{
+    color: #3b0eac;
+    margin-top: 5px;
+    font-size: 20px;
+    width: 50%;
+    margin: auto;
+}
